@@ -1,0 +1,67 @@
+.home {
+  height: 90vh;
+  position: relative;
+  background-color: var(--veryLightGray);
+  background: url("../../images/bg-intro-desktop.svg") no-repeat;
+  background-position: 100% 0;
+  background-size: 800px 800px;
+  z-index: -1;
+}
+
+
+.bg-img {
+  width: 70rem;
+  margin-top: 0;
+  margin-right: -50px;
+  z-index: 3;
+}
+
+.home-details {
+  width: 30rem;
+}
+
+@media (max-width: 1200px) {
+  
+  .bg-img {
+    margin-right: 0;
+    width: 60rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .h {
+    display: none;
+  }
+}
+
+@media(max-width:768px){
+    .home{
+        background-position: center right;
+        background-size: 400px 400px;
+    }
+}
+
+@media(max-width: 576px){
+  .home{
+    background: none
+  }
+  .h {
+    display: block;
+    position: relative;
+    z-index: -1;
+    
+  }
+  .bg-img{
+    width: 35rem;
+    z-index: -1;
+  }
+}
+@media(max-width: 350px){
+  .bg-img{
+    width: 28rem;
+    z-index: -1;
+  }
+  .home-details {
+    width: 26rem;
+  }
+}

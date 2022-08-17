@@ -1,0 +1,16 @@
+.link-btn {
+    background: linear-gradient(140deg, hsl(136, 65%, 51%) 0%, hsl(136deg 43% 62%) 99%);
+    padding: 0.8rem 2.8rem;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    color: white;
+    width: 15rem;
+}
+
+.para-style{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--grayishBlue);
+}

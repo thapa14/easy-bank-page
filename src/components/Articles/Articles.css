@@ -1,0 +1,12 @@
+.articles{
+    padding: 10rem 0;
+    background-color: var(--veryLightGray);
+}
+
+.card{
+    border: none !important;
+}
+
+/* .card-img-top{
+    width: 100%;
+} */
