@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/easy-bank-page/static/css/main.fb673fb2.css",
+    "main.js": "/easy-bank-page/static/js/main.5bbc3ab7.js",
+    "static/media/image-mockups.png": "/easy-bank-page/static/media/image-mockups.48d35b175fe3d36de4ee.png",
+    "static/media/logo.svg": "/easy-bank-page/static/media/logo.a8fa0f0f08e798833c311a11c2ec8fd4.svg",
+    "static/media/bg-intro-desktop.svg": "/easy-bank-page/static/media/bg-intro-desktop.8be308fd4ce79bd32a09.svg",
+    "static/media/bg-intro-mobile.svg": "/easy-bank-page/static/media/bg-intro-mobile.c2ed38d05001e62c1c09.svg",
+    "static/media/icon-instagram.svg": "/easy-bank-page/static/media/icon-instagram.d0ae37f9a50fb1fcce3ac07c5fcade3a.svg",
+    "static/media/icon-pinterest.svg": "/easy-bank-page/static/media/icon-pinterest.8b5e1885d69bb31145969fb3dc233e7f.svg",
+    "index.html": "/easy-bank-page/index.html",
+    "static/media/icon-twitter.svg": "/easy-bank-page/static/media/icon-twitter.222424578039165ab2aafcef3d622753.svg",
+    "static/media/icon-youtube.svg": "/easy-bank-page/static/media/icon-youtube.1b78d0831e48ae1da05f3ec28cb692ad.svg",
+    "static/media/icon-facebook.svg": "/easy-bank-page/static/media/icon-facebook.2c99eb1d5d784afcb30666ce5e1665ed.svg",
+    "static/media/icon-close.svg": "/easy-bank-page/static/media/icon-close.c2e36e0469b3b1e6c27328356ce18aed.svg",
+    "static/media/icon-hamburger.svg": "/easy-bank-page/static/media/icon-hamburger.b0d311feac968ee5feab7333de091d7f.svg",
+    "main.fb673fb2.css.map": "/easy-bank-page/static/css/main.fb673fb2.css.map",
+    "main.5bbc3ab7.js.map": "/easy-bank-page/static/js/main.5bbc3ab7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb673fb2.css",
+    "static/js/main.5bbc3ab7.js"
+  ]
+}
