@@ -12,18 +12,18 @@ function WhyEasyBank() {
           <p className="para-style  m-0">We leverage Open Banking to to turn your into financial hub. Control your finances like never before.</p>
         </div>
         <div className="wib-cards mt-5 ">
-          <div className="row">
-          {
-            cardsData.map((value, index) => {
-              return(
-                <Cards key={index}
-                image={value.image}
-                title={value.title}
-                para={value.para}/>
-              )
-            })
-          }
-          
+          <div className="row gx-sm-5">
+            {
+              cardsData.map((value, index) => {
+                return (
+                  <Cards key={index}
+                    image={value.image}
+                    title={value.title}
+                    para={value.para} />
+                )
+              })
+            }
+
           </div>
         </div>
       </div>
@@ -32,4 +32,3 @@ function WhyEasyBank() {
 }
 
 export default WhyEasyBank;
- 

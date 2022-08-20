@@ -1,12 +1,27 @@
-.articles{
+.articles {
     padding: 10rem 0;
     background-color: var(--veryLightGray);
 }
 
-.card{
+.card {
     border: none !important;
 }
 
-/* .card-img-top{
-    width: 100%;
-} */
+.article-subpara {
+    color: var(--grayishBlue);
+}
+
+.articles-title {
+    cursor: pointer;
+    /* font-weight: 400; */
+}
+
+.articles-title:hover {
+    /* font-weight: 700; */
+    color: var(--limeGreen);
+}
+
+.article-para {
+    font-size: 1.1rem;
+    color: var(--grayishBlue);
+}

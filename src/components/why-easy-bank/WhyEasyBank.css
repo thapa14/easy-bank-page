@@ -1,25 +1,27 @@
-.wib{
+.wib {
     padding: 10rem 0;
     background-color: var(--lightGrayishBlue);
 }
 
-.wib-para .para-style{
+.wib-para .para-style {
     width: 40rem;
 }
 
-.cards{
+.cards {
     /* width: 20rem; */
 }
-.card-img img{
+
+.card-img img {
     width: 4rem;
 }
-.card-about>p{
+
+.card-about>p {
     font-size: 1.2rem;
 }
 
 
-@media(max-width: 576px){
-   .wib-para .para-style{
+@media(max-width: 576px) {
+    .wib-para .para-style {
         width: 100%;
     }
 }

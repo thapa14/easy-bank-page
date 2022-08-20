@@ -1,67 +1,113 @@
 .home {
-  height: 90vh;
-  position: relative;
-  background-color: var(--veryLightGray);
-  background: url("../../images/bg-intro-desktop.svg") no-repeat;
-  background-position: 100% 0;
-  background-size: 800px 800px;
-  z-index: -1;
+    height: max-content;
+    background: url("../../images/bg-intro-mobile.svg") no-repeat center center/cover;
+}
+
+.h {
+    height: 100%;
+    padding-bottom: 4rem;
+}
+
+.h-img {
+    width: 100%;
+}
+
+.container {
+    --bs-gutter-x: 0rem !important;
 }
 
 
-.bg-img {
-  width: 70rem;
-  margin-top: 0;
-  margin-right: -50px;
-  z-index: 3;
-}
+@media(min-width: 365px) {
+    .h-img {
+        width: 75%;
+        margin: auto;
+    }
 
-.home-details {
-  width: 30rem;
-}
-
-@media (max-width: 1200px) {
-  
-  .bg-img {
-    margin-right: 0;
-    width: 60rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .h {
-    display: none;
-  }
-}
-
-@media(max-width:768px){
-    .home{
-        background-position: center right;
-        background-size: 400px 400px;
+    .h-para {
+        width: 30rem;
+        font-size: 1.3rem;
     }
 }
 
-@media(max-width: 576px){
-  .home{
-    background: none
-  }
-  .h {
-    display: block;
-    position: relative;
-    z-index: -1;
-    
-  }
-  .bg-img{
-    width: 35rem;
-    z-index: -1;
-  }
+@media(min-width: 576px) {
+    .home {
+        height: max-content;
+        background: url("../../images/bg-intro-desktop.svg") no-repeat right top;
+        background-size: 50rem;
+        background-position: 35rem -6rem;
+    }
+
+    .h {
+        padding-bottom: 0;
+    }
+
+    .h-img {
+        width: 100%;
+    }
 }
-@media(max-width: 350px){
-  .bg-img{
-    width: 28rem;
-    z-index: -1;
-  }
-  .home-details {
-    width: 26rem;
-  }
+
+@media(min-width: 768px) {
+
+    .home {
+        height: 361px;
+        background-size: 80rem;
+        background-position: 40rem -15rem;
+    }
+
+    .h-img {
+        width: 352px;
+    }
+
+    .h-para {
+        font-size: 1.4rem;
+    }
 }
+
+@media(min-width: 992px) {
+    .home {
+        height: 478px;
+        background-size: 110rem;
+        background-position: 40rem -15rem;
+    }
+
+    .h-img {
+        width: 472px;
+    }
+}
+
+
+@media(min-width: 1200px) {
+    .home {
+        height: 538px;
+        background-size: 130rem;
+        background-position: 50rem -20rem;
+    }
+
+    .h-img {
+        width: 562px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .home {
+        height: 650px;
+    }
+
+    .h {
+        height: 100%;
+    }
+
+    .h-img {
+        width: 652.5px;
+    }
+
+}
+
+
+
+/* @media(min-width: 365px) {
+    .h-img {
+        width: 100%;
+        margin: auto;
+    }
+} */

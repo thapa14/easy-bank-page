@@ -9,13 +9,13 @@ import Footer from '../Footer/Footer';
 function App() {
   return (
     <>
-    <Navigation />
-    <Home />
-    <WhyEasyBank />
-    <Articles />
-    <Footer />
+      <Navigation />
+      <Home />
+      <WhyEasyBank />
+      <Articles />
+      <Footer />
     </>
-    
+
   )
 }
 
